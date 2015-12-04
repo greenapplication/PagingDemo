@@ -14,6 +14,13 @@
 		040C58401BBA8FC4006E2396 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040C583F1BBA8FC4006E2396 /* Images.xcassets */; };
 		040C58431BBA8FC4006E2396 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040C58411BBA8FC4006E2396 /* LaunchScreen.xib */; };
 		040C584F1BBA8FC4006E2396 /* Paging_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C584E1BBA8FC4006E2396 /* Paging_DemoTests.m */; };
+		040C58601BBA93D2006E2396 /* CustomPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C585F1BBA93D2006E2396 /* CustomPagerViewController.m */; };
+		040C58631BBA93E1006E2396 /* PagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C58621BBA93E1006E2396 /* PagerViewController.m */; };
+		040C58661BBA93F0006E2396 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C58651BBA93F0006E2396 /* FirstViewController.m */; };
+		040C58691BBA93F8006E2396 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C58681BBA93F8006E2396 /* SecondViewController.m */; };
+		040C586C1BBA9401006E2396 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C586B1BBA9401006E2396 /* ThirdViewController.m */; };
+		040C586F1BBA940A006E2396 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C586E1BBA940A006E2396 /* ForthViewController.m */; };
+		040C58721BBA9415006E2396 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C58711BBA9415006E2396 /* FifthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,20 @@
 		040C58481BBA8FC4006E2396 /* Paging DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paging DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		040C584D1BBA8FC4006E2396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040C584E1BBA8FC4006E2396 /* Paging_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Paging_DemoTests.m; sourceTree = "<group>"; };
+		040C585E1BBA93D2006E2396 /* CustomPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPagerViewController.h; sourceTree = "<group>"; };
+		040C585F1BBA93D2006E2396 /* CustomPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPagerViewController.m; sourceTree = "<group>"; };
+		040C58611BBA93E1006E2396 /* PagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagerViewController.h; sourceTree = "<group>"; };
+		040C58621BBA93E1006E2396 /* PagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagerViewController.m; sourceTree = "<group>"; };
+		040C58641BBA93F0006E2396 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		040C58651BBA93F0006E2396 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		040C58671BBA93F8006E2396 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		040C58681BBA93F8006E2396 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		040C586A1BBA9401006E2396 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		040C586B1BBA9401006E2396 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		040C586D1BBA940A006E2396 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		040C586E1BBA940A006E2396 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		040C58701BBA9415006E2396 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		040C58711BBA9415006E2396 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +102,20 @@
 		040C58311BBA8FC4006E2396 /* Paging Demo */ = {
 			isa = PBXGroup;
 			children = (
+				040C585E1BBA93D2006E2396 /* CustomPagerViewController.h */,
+				040C585F1BBA93D2006E2396 /* CustomPagerViewController.m */,
+				040C58611BBA93E1006E2396 /* PagerViewController.h */,
+				040C58621BBA93E1006E2396 /* PagerViewController.m */,
+				040C58641BBA93F0006E2396 /* FirstViewController.h */,
+				040C58651BBA93F0006E2396 /* FirstViewController.m */,
+				040C58671BBA93F8006E2396 /* SecondViewController.h */,
+				040C58681BBA93F8006E2396 /* SecondViewController.m */,
+				040C586A1BBA9401006E2396 /* ThirdViewController.h */,
+				040C586B1BBA9401006E2396 /* ThirdViewController.m */,
+				040C586D1BBA940A006E2396 /* ForthViewController.h */,
+				040C586E1BBA940A006E2396 /* ForthViewController.m */,
+				040C58701BBA9415006E2396 /* FifthViewController.h */,
+				040C58711BBA9415006E2396 /* FifthViewController.m */,
 				040C58361BBA8FC4006E2396 /* AppDelegate.h */,
 				040C58371BBA8FC4006E2396 /* AppDelegate.m */,
 				040C58391BBA8FC4006E2396 /* ViewController.h */,
@@ -220,8 +255,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				040C583B1BBA8FC4006E2396 /* ViewController.m in Sources */,
+				040C58661BBA93F0006E2396 /* FirstViewController.m in Sources */,
+				040C586F1BBA940A006E2396 /* ForthViewController.m in Sources */,
+				040C586C1BBA9401006E2396 /* ThirdViewController.m in Sources */,
+				040C58631BBA93E1006E2396 /* PagerViewController.m in Sources */,
+				040C58691BBA93F8006E2396 /* SecondViewController.m in Sources */,
 				040C58381BBA8FC4006E2396 /* AppDelegate.m in Sources */,
 				040C58351BBA8FC4006E2396 /* main.m in Sources */,
+				040C58721BBA9415006E2396 /* FifthViewController.m in Sources */,
+				040C58601BBA93D2006E2396 /* CustomPagerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Paging Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Paging Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
